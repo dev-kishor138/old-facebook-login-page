@@ -1,1 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+body {
+    margin: 0;
+    /* font-family: "Lato", sans-serif; */
+}
+
+/* Header area design  */
+.header-area {
+    background-color: #3A5795;
+    padding: 10px 0;
+    font-family: "Tahoma", sans-serif;
+}
+
+.content {
+    width: 90%;
+    margin: auto;
+}
+
+.header-area .logo-area {
+    width: 30%;
+    float: left;
+}
+
+.header-area .login-area {
+    width: 70%;
+    overflow: hidden;
+}
+
+.login-area input {
+    display: block;
+    margin: 5px 0 3px;
+    border: 1px solid #1D2A5B;
+    padding: 2px;
+}
+
+.login-area label {
+    color: #FFFFFF;
+    font-size: 12px;
+    display: block;
+    cursor: pointer;
+}
+
+.login-area form {
+    float: right;
+}
+
+.header-area .login-area a {
+    color: #8CACC3;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.login-area input[type="checkbox"] {
+    float: left;
+    padding-left: 0;
+}
+
+.login-area .username-area {
+    float: left;
+    margin-right: 15px;
+}
+
+.login-area .password-area {
+    overflow: hidden;
+    float: left;
+    margin-right: 15px;
+}
+
+.login-area .submit-area {
+    overflow: hidden;
+}
+
+.username-area label:last-child {
+    margin-top: 5px;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 2px;
+    color: #8CACC3;
+}
+
+.header-area .login-area a:hover {
+    text-decoration: underline;
+}
+
+.submit-area input[type="submit"] {
+    background-color: #5A74A8;
+    cursor: pointer;
+    color: #FFFFFF;
+    margin: 19px;
+    font-size: 13px;
+}
