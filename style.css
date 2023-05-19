@@ -259,3 +259,100 @@ body {
 .signup-area .page a {
     font-size: 13px;
 }
+
+
+
+/* footer area desgin  */
+.footer-area {
+    font-family: tahoma;
+    font-size: 12px;
+}
+
+.footer-area ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-area ul li {
+    float: left;
+}
+
+.footer-arae ul li {
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.footer-area hr {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid #666666;
+}
+
+.footer-top ul li {
+    margin-right: 10px;
+}
+
+.footer-bottom ul li {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 768px) {
+    .header-area .logo-area {
+        float: none;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header-area .login-area {
+        width: 100%;
+    }
+
+    .login-area form {
+        float: none;
+        width: 380px;
+        margin: auto;
+    }
+
+    .mobile-area {
+        width: 100%;
+        float: none;
+    }
+
+    .signup-area {
+        width: 100%;
+    }
+
+}
+
+@media all and (max-width: 450px) {
+    .login-area form {
+        width: auto;
+    }
+
+    .login-area .username-area {
+        float: none;
+    }
+
+    .login-area .password-area {
+        float: none;
+    }
+
+    .login-area input[type="text"],
+    .login-area input[type="password"] {
+        width: 100%;
+    }
+}
